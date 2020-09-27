@@ -10,11 +10,25 @@ body {
 
 header {
   background: black;
+  position: relative;
+}
+
+#back_mg {
+  width: 100%;
+  height: 500px;
+  opacity: 0.1;
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
 }
 
 .header_image_container {
   display: flex;
   justify-content: center;
+}
+
+.header_image_container img {
+  pointer-events: none;
 }
 
 header ul {
