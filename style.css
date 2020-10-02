@@ -14,8 +14,6 @@ header {
 }
 
 #back_mg {
-  width: 100%;
-  height: 500px;
   opacity: 0.1;
   position: absolute;
   z-index: 0;
@@ -25,10 +23,11 @@ header {
 .header_image_container {
   display: flex;
   justify-content: center;
-}
-
-.header_image_container img {
-  pointer-events: none;
+  height: 85.2vh;
+  background-image: url('/Images/myBG.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 header ul {
@@ -42,7 +41,7 @@ header ul {
 
 header ul li {
   cursor: pointer;
-  font-size: 1.5em;
+  font-size: 1.6em;
   font-family: Iceland;
 }
 
